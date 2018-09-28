@@ -49,8 +49,9 @@ def mura(x1,y1,hg):
     eyes(x1,y1,hg)
     mouth(x1,y1,hg/2.25)
 
-for i in range(40):
-    mura(randint(-200, 200),randint(-200, 200),randint(40,100))
+min = -500;max = 500;num = 70
+for i in range(num):
+    mura(randint(min, max),randint(min, max),randint(30,150))
 
 
 
